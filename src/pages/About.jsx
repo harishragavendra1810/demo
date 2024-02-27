@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Topnav from "../components/Nav";
 import Shopbutton from "../components/Shopbutton";
 import Whychooseus from "../components/whychooseus";
+import "../components/Home.css";
 
 function  Aboutpage(){
     return(
@@ -17,7 +18,7 @@ function  Aboutpage(){
      <p>Until the end of life, no one wants to be a player. He doesn't like trucks. Aliquam vulputate velit imperdiet pain tempor sad.</p>
     <Shopbutton/>
 </div> </div>
-         <div className="col-12 col-lg-7"><img src='https://themewagon.github.io/furni/images/couch.png' alt='furnitureHome'/> </div>
+         <div className="col-12 col-lg-7"><img className="himg" src='https://themewagon.github.io/furni/images/couch.png' alt='furnitureHome'/> </div>
         </div>
        </div>
        </div>

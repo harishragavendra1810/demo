@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Topnav from "../components/Nav";
 import Contactcontent from "../components/Contactcontent";
 import Shopbutton from "../components/Shopbutton";
-
+import "../components/Home.css";
 const Contactus = () => {
   return (
     <div>
@@ -34,6 +34,7 @@ const Contactus = () => {
               </div>
               <div className="col-12 col-lg-7">
                 <img
+                className="himg"
                   src="https://themewagon.github.io/furni/images/couch.png"
                   alt="furnitureHome"
                 />{" "}

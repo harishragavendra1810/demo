@@ -1,6 +1,6 @@
 import Blogs from "../components/Blogs"
 import Footer from "../components/Footer"
-
+import "../components/Home.css";
 import Topnav from "../components/Nav"
 import Shopbutton from "../components/Shopbutton"
 
@@ -17,7 +17,7 @@ function Blogpage(){
    <p>Until the end of life, no one wants to be a player. He doesn't like trucks. Aliquam vulputate velit imperdiet pain tempor sad.</p>
   <Shopbutton/>
 </div> </div>
-       <div className="col-12 col-lg-7"><img src='https://themewagon.github.io/furni/images/couch.png' alt='furnitureHome'/> </div>
+       <div className="col-12 col-lg-7"><img className="himg" src='https://themewagon.github.io/furni/images/couch.png' alt='furnitureHome'/> </div>
       </div>
      </div>
      </div>

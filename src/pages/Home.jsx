@@ -6,6 +6,7 @@ import Explore from "./Explore";
 import Aboutcontent from "../components/Aboutcontent";
 import Blogs from "../components/Blogs";
 import Footer from "../components/Footer";
+import "../components/Home.css";
 const Home = () => {
   return (
     <div style={{ overflowX: "hidden" }}>
@@ -21,6 +22,7 @@ const Home = () => {
             </div>
             <div className="col-12 col-lg-7">
               <img
+                className="himg"
                 src="https://themewagon.github.io/furni/images/couch.png"
                 alt="furnitureHome"
               />{" "}
